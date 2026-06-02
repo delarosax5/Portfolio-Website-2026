@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Twitter Spaces, now X">
+  <rect width="1600" height="1000" fill="#0d0f12"/>
+  <!-- rounded app-icon tile -->
+  <rect x="600" y="290" width="400" height="400" rx="92" fill="#16181c"/>
+  <!-- X mark: two crossing diagonal bars -->
+  <g stroke="#ffffff" stroke-width="48">
+    <line x1="702" y1="378" x2="898" y2="602"/>
+    <line x1="898" y1="378" x2="702" y2="602"/>
+  </g>
+</svg>

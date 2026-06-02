@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alejandro De La Rosa — UX Designer & Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor" data-cursor></div>
+
+    <!-- NAV -->
+    <header class="nav" data-reveal>
+      <a href="#top" class="nav__logo">ADLR<span>.</span></a>
+      <nav class="nav__links">
+        <a href="#work" data-link>Work</a>
+        <a href="#about" data-link>About</a>
+        <a href="#contact" data-link>Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="hero__inner">
+        <p class="hero__eyebrow reveal-up">
+          Alejandro De La Rosa · UX Designer & Software Engineer
+        </p>
+        <h1 class="hero__title">
+          <span class="line"><span class="word">Designing</span></span>
+          <span class="line"><span class="word">&amp; building</span></span>
+          <span class="line"
+            ><span class="word">thoughtful</span>
+            <span class="word accent">products.</span></span
+          >
+        </h1>
+        <p class="hero__sub reveal-up">
+          I'm a UX designer and software engineering student crafting clean,
+          human-centered digital experiences from concept to code.
+        </p>
+        <a href="#work" class="hero__scroll reveal-up" data-link>
+          <span>Scroll to explore</span>
+          <span class="hero__arrow">↓</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <!-- Half A -->
+        <span>UX Design</span><span>·</span><span>UI Design</span><span>·</span>
+        <span>Front-End</span><span>·</span><span>Prototyping</span
+        ><span>·</span> <span>User Research</span><span>·</span
+        ><span>Wireframing</span><span>·</span> <span>Interaction Design</span
+        ><span>·</span><span>Design Systems</span><span>·</span>
+        <span>Accessibility</span><span>·</span><span>Responsive Design</span
+        ><span>·</span> <span>HTML &amp; CSS</span><span>·</span
+        ><span>JavaScript</span><span>·</span> <span>Figma</span><span>·</span
+        ><span>Usability Testing</span><span>·</span>
+        <!-- Half B (identical for seamless loop) -->
+        <span>UX Design</span><span>·</span><span>UI Design</span><span>·</span>
+        <span>Front-End</span><span>·</span><span>Prototyping</span
+        ><span>·</span> <span>User Research</span><span>·</span
+        ><span>Wireframing</span><span>·</span> <span>Interaction Design</span
+        ><span>·</span><span>Design Systems</span><span>·</span>
+        <span>Accessibility</span><span>·</span><span>Responsive Design</span
+        ><span>·</span> <span>HTML &amp; CSS</span><span>·</span
+        ><span>JavaScript</span><span>·</span> <span>Figma</span><span>·</span
+        ><span>Usability Testing</span><span>·</span>
+      </div>
+    </div>
+
+    <!-- WORK -->
+    <section class="work" id="work">
+      <div class="section-head" data-reveal>
+        <span class="section-head__num">01</span>
+        <h2 class="section-head__title">Selected Work</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project" data-reveal data-tilt>
+          <div
+            class="project__media"
+            style="
+              background-image: url(&quot;assets/NEW\ ICON\ LEVELUP.png&quot;);
+            "
+          ></div>
+          <div class="project__body">
+            <h3 class="project__title">LevelUp Basketball</h3>
+            <p class="project__meta">UX / UI Case Study</p>
+            <p class="project__desc">
+              A mobile experience designed to help basketball players track
+              progress and level up their game. Replace this line with your own
+              summary.
+            </p>
+            <a
+              href="https://www.notion.so/delarosaporfolio/LevelUp-Basketball-Case-Study-d4a6e10fdded471cb0ad3362444cc1e0"
+              class="project__link"
+              data-link
+              target="_blank"
+              rel="noopener"
+              >View case study →</a
+            >
+          </div>
+        </article>
+
+        <article class="project" data-reveal data-tilt>
+          <div
+            class="project__media"
+            style="background-image: url(&quot;assets/twitter-spaces.svg&quot;)"
+          ></div>
+          <div class="project__body">
+            <h3 class="project__title">Twitter Spaces (Now X)</h3>
+            <p class="project__meta">UX / UI Case Study</p>
+            <p class="project__desc">
+              A product design exploration of Twitter Spaces, now X. Replace
+              this line with your own summary of the problem, role, and outcome.
+            </p>
+            <a
+              href="https://www.notion.so/delarosaporfolio/Twitter-Spaces-Now-X-Case-Study-07fd85953b0841a7b873879a1ae86189"
+              class="project__link"
+              data-link
+              target="_blank"
+              rel="noopener"
+              >View case study →</a
+            >
+          </div>
+        </article>
+
+        <article class="project" data-reveal data-tilt>
+          <div
+            class="project__media"
+            style="
+              background-image: url(&quot;assets/168111-travel-icon-free-png-hq.png&quot;);
+            "
+          ></div>
+          <div class="project__body">
+            <h3 class="project__title">Delarosa Destinations</h3>
+            <p class="project__meta">Front-End · HTML &amp; CSS</p>
+            <p class="project__desc">
+              A responsive travel website concept built from scratch with only
+              HTML and CSS.
+            </p>
+            <a
+              href="https://delarosatravel.netlify.app"
+              class="project__link"
+              data-link
+              target="_blank"
+              rel="noopener"
+              >View →</a
+            >
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="section-head" data-reveal>
+        <span class="section-head__num">02</span>
+        <h2 class="section-head__title">About</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__text" data-reveal>
+          <p class="about__lead">
+            I bridge design and engineering — turning research and ideas into
+            interfaces that feel effortless and ship as real, working code.
+          </p>
+          <p>
+            Currently studying software engineering while designing products on
+            the side. I care about typography, motion, accessibility, and the
+            small details that make an experience feel considered. I am natively
+            from the Dominican Republic and speak English, Spanish, and
+            Portugese.
+          </p>
+        </div>
+        <div class="about__side" data-reveal>
+          <div class="about__block">
+            <h4>Skills</h4>
+            <p>
+              Figma, Prototyping, User Research, HTML/CSS, JavaScript, React
+            </p>
+          </div>
+          <div class="about__block">
+            <h4>Currently</h4>
+            <p>Open to internships,remote positions &amp; freelance UX work</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact__inner" data-reveal>
+        <p class="contact__eyebrow">Let's build something</p>
+        <a href="mailto:delarosax7@icloud.com" class="contact__email" data-link
+          >delarosax7@icloud.com</a
+        >
+        <div class="contact__socials">
+          <a href="https://www.linkedin.com/in/delarosax7/" data-link
+            >LinkedIn</a
+          >
+          <a href="https://github.com/delarosax5" data-link>GitHub</a>
+          <a href="https://dribbble.com/delarosax" data-link>Dribbble</a>
+        </div>
+      </div>
+      <footer class="footer">
+        <span>© 2026 Alejandro De La Rosa</span>
+        <a href="#top" data-link>Back to top ↑</a>
+      </footer>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
